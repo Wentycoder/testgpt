@@ -1,80 +1,130 @@
-=== ÇALIŞTIRMA RAPORU (2026-11-24 03:14:25) ===
+=== ÇALIŞTIRMA RAPORU (2026-11-24 03:15:04) ===
 Dizin: C:/Users/Balka/Downloads/testgpt
 
 [1] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\docs"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\docs already exists.
 
 [2] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\frontend"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\frontend already exists.
 
 [3] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\frontend\public"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\frontend\public already exists.
 
 [4] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\frontend\public\images"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\frontend\public\images already exists.
 
 [5] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\frontend\src"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\frontend\src already exists.
 
 [6] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\frontend\src\components"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\frontend\src\components already exists.
 
 [7] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\frontend\src\pages"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\frontend\src\pages already exists.
 
 [8] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\frontend\src\styles"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\frontend\src\styles already exists.
 
 [9] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\backend"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\backend already exists.
 
 [10] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\backend\src"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\backend\src already exists.
 
 [11] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\backend\src\config"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\backend\src\config already exists.
 
 [12] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\backend\src\routes"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\backend\src\routes already exists.
 
 [13] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\backend\src\controllers"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\backend\src\controllers already exists.
 
 [14] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\backend\src\models"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\backend\src\models already exists.
 
 [15] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\backend\src\middleware"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\backend\src\middleware already exists.
 
 [16] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\database"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\database already exists.
 
 [17] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\database\migrations"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\database\migrations already exists.
 
 [18] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\database\seeds"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\database\seeds already exists.
 
 [19] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\storage"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\storage already exists.
 
 [20] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\storage\products"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\storage\products already exists.
 
 [21] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\tests"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\tests already exists.
 
 [22] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\tests\unit"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\tests\unit already exists.
 
 [23] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\tests\integration"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\tests\integration already exists.
 
 [24] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\scripts"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\scripts already exists.
 
 [25] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\deployment"
-Durum Kodu: 0
+Durum Kodu: 1
+--- STDERR ---
+A subdirectory or file C:\Users\Balka\Downloads\testgpt\deployment already exists.
 
 [26] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\docs\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\docs\README.txt"
 Durum Kodu: 0
