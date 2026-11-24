@@ -1,4 +1,4 @@
-=== ÇALIŞTIRMA RAPORU (2026-11-24 03:12:12) ===
+=== ÇALIŞTIRMA RAPORU (2026-11-24 03:12:58) ===
 Dizin: C:/Users/Balka/Downloads/testgpt
 
 [1] /cmd if exist "%USERPROFILE%\Downloads\testgpt\docs" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\docs"
