@@ -1,0 +1,5 @@
+=== ÇALIŞTIRMA RAPORU (2026-11-24 03:06:07) ===
+Dizin: C:/Users/Balka/Downloads/testgpt
+
+[1] /cmd cd /d "%USERPROFILE%\Downloads\testgpt"
+Durum Kodu: 0
