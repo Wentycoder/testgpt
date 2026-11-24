@@ -1,9 +1,43 @@
-=== ÇALIŞTIRMA RAPORU (2026-11-24 03:15:50) ===
+=== ÇALIŞTIRMA RAPORU (2026-11-24 03:16:33) ===
 Dizin: C:/Users/Balka/Downloads/testgpt
 
-[1] /write script.js -> BAŞARILI (1841 karakter yazıldı)
+[1] /cmd if exist "%USERPROFILE%\Downloads\testgpt\docs" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\docs"
+Durum Kodu: 0
 
-[2] /cmd dir "%USERPROFILE%\Downloads\testgpt"
+[2] /cmd if exist "%USERPROFILE%\Downloads\testgpt\frontend" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\frontend"
+Durum Kodu: 0
+
+[3] /cmd if exist "%USERPROFILE%\Downloads\testgpt\backend" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\backend"
+Durum Kodu: 0
+
+[4] /cmd if exist "%USERPROFILE%\Downloads\testgpt\database" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\database"
+Durum Kodu: 0
+
+[5] /cmd if exist "%USERPROFILE%\Downloads\testgpt\integrations" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\integrations"
+Durum Kodu: 0
+
+[6] /cmd if exist "%USERPROFILE%\Downloads\testgpt\workers" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\workers"
+Durum Kodu: 0
+
+[7] /cmd if exist "%USERPROFILE%\Downloads\testgpt\storage" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\storage"
+Durum Kodu: 0
+
+[8] /cmd if exist "%USERPROFILE%\Downloads\testgpt\tests" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\tests"
+Durum Kodu: 0
+
+[9] /cmd if exist "%USERPROFILE%\Downloads\testgpt\config" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\config"
+Durum Kodu: 0
+
+[10] /cmd if exist "%USERPROFILE%\Downloads\testgpt\scripts" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\scripts"
+Durum Kodu: 0
+
+[11] /cmd if exist "%USERPROFILE%\Downloads\testgpt\deployment" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\deployment"
+Durum Kodu: 0
+
+[12] /cmd if exist "%USERPROFILE%\Downloads\testgpt\logs" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\logs"
+Durum Kodu: 0
+
+[13] /cmd dir "%USERPROFILE%\Downloads\testgpt"
 Durum Kodu: 0
 --- STDOUT ---
  Volume in drive C is Windows
@@ -11,20 +45,26 @@ Durum Kodu: 0
 
  Directory of C:\Users\Balka\Downloads\testgpt
 
-11/24/2026  03:15 AM    <DIR>          .
+11/24/2026  03:16 AM    <DIR>          .
 11/24/2026  03:05 AM    <DIR>          ..
-11/24/2026  03:15 AM    <DIR>          backend
-11/24/2026  03:15 AM               155 cikti.txt
-11/24/2026  03:15 AM    <DIR>          database
-11/24/2026  03:15 AM    <DIR>          deployment
-11/24/2026  03:15 AM    <DIR>          docs
-11/24/2026  03:15 AM    <DIR>          frontend
+11/24/2026  03:15 AM             1,175 cikti.txt
 11/24/2026  03:15 AM             1,560 index.html
 11/24/2026  03:05 AM                11 README.md
 11/24/2026  03:15 AM             1,920 script.js
-11/24/2026  03:15 AM    <DIR>          scripts
-11/24/2026  03:15 AM    <DIR>          storage
 11/24/2026  03:15 AM             3,396 style.css
-11/24/2026  03:15 AM    <DIR>          tests
-               5 File(s)          7,042 bytes
-              10 Dir(s)  715,436,609,536 bytes free
+               5 File(s)          8,062 bytes
+               2 Dir(s)  715,437,342,720 bytes free
+
+[14] /cmd tree "%USERPROFILE%\Downloads\testgpt" /f
+Durum Kodu: 0
+--- STDOUT ---
+Folder PATH listing for volume Windows
+Volume serial number is 16F4-2368
+C:\USERS\BALKA\DOWNLOADS\TESTGPT
+    cikti.txt
+    index.html
+    README.md
+    script.js
+    style.css
+    
+No subfolders exist
