@@ -1,49 +1,236 @@
-=== ÇALIŞTIRMA RAPORU (2026-11-24 03:13:55) ===
+=== ÇALIŞTIRMA RAPORU (2026-11-24 03:14:25) ===
 Dizin: C:/Users/Balka/Downloads/testgpt
 
-[1] /cmd if exist "%USERPROFILE%\Downloads\testgpt\docs" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\docs"
+[1] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\docs"
 Durum Kodu: 0
 
-[2] /cmd if exist "%USERPROFILE%\Downloads\testgpt\frontend" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\frontend"
+[2] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\frontend"
 Durum Kodu: 0
 
-[3] /cmd if exist "%USERPROFILE%\Downloads\testgpt\backend" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\backend"
+[3] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\frontend\public"
 Durum Kodu: 0
 
-[4] /cmd if exist "%USERPROFILE%\Downloads\testgpt\database" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\database"
+[4] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\frontend\public\images"
 Durum Kodu: 0
 
-[5] /cmd if exist "%USERPROFILE%\Downloads\testgpt\integrations" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\integrations"
+[5] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\frontend\src"
 Durum Kodu: 0
 
-[6] /cmd if exist "%USERPROFILE%\Downloads\testgpt\workers" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\workers"
+[6] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\frontend\src\components"
 Durum Kodu: 0
 
-[7] /cmd if exist "%USERPROFILE%\Downloads\testgpt\storage" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\storage"
+[7] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\frontend\src\pages"
 Durum Kodu: 0
 
-[8] /cmd if exist "%USERPROFILE%\Downloads\testgpt\tests" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\tests"
+[8] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\frontend\src\styles"
 Durum Kodu: 0
 
-[9] /cmd if exist "%USERPROFILE%\Downloads\testgpt\config" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\config"
+[9] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\backend"
 Durum Kodu: 0
 
-[10] /cmd if exist "%USERPROFILE%\Downloads\testgpt\scripts" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\scripts"
+[10] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\backend\src"
 Durum Kodu: 0
 
-[11] /cmd if exist "%USERPROFILE%\Downloads\testgpt\deployment" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\deployment"
+[11] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\backend\src\config"
 Durum Kodu: 0
 
-[12] /cmd if exist "%USERPROFILE%\Downloads\testgpt\logs" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\logs"
+[12] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\backend\src\routes"
 Durum Kodu: 0
 
-[13] /cmd tree "%USERPROFILE%\Downloads\testgpt" /f
+[13] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\backend\src\controllers"
+Durum Kodu: 0
+
+[14] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\backend\src\models"
+Durum Kodu: 0
+
+[15] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\backend\src\middleware"
+Durum Kodu: 0
+
+[16] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\database"
+Durum Kodu: 0
+
+[17] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\database\migrations"
+Durum Kodu: 0
+
+[18] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\database\seeds"
+Durum Kodu: 0
+
+[19] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\storage"
+Durum Kodu: 0
+
+[20] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\storage\products"
+Durum Kodu: 0
+
+[21] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\tests"
+Durum Kodu: 0
+
+[22] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\tests\unit"
+Durum Kodu: 0
+
+[23] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\tests\integration"
+Durum Kodu: 0
+
+[24] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\scripts"
+Durum Kodu: 0
+
+[25] /cmd mkdir "%USERPROFILE%\Downloads\testgpt\deployment"
+Durum Kodu: 0
+
+[26] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\docs\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\docs\README.txt"
+Durum Kodu: 0
+
+[27] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\frontend\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\frontend\README.txt"
+Durum Kodu: 0
+
+[28] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\frontend\public\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\frontend\public\README.txt"
+Durum Kodu: 0
+
+[29] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\frontend\public\images\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\frontend\public\images\README.txt"
+Durum Kodu: 0
+
+[30] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\frontend\src\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\frontend\src\README.txt"
+Durum Kodu: 0
+
+[31] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\frontend\src\components\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\frontend\src\components\README.txt"
+Durum Kodu: 0
+
+[32] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\frontend\src\pages\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\frontend\src\pages\README.txt"
+Durum Kodu: 0
+
+[33] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\frontend\src\styles\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\frontend\src\styles\README.txt"
+Durum Kodu: 0
+
+[34] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\backend\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\backend\README.txt"
+Durum Kodu: 0
+
+[35] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\backend\src\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\backend\src\README.txt"
+Durum Kodu: 0
+
+[36] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\backend\src\config\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\backend\src\config\README.txt"
+Durum Kodu: 0
+
+[37] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\backend\src\routes\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\backend\src\routes\README.txt"
+Durum Kodu: 0
+
+[38] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\backend\src\controllers\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\backend\src\controllers\README.txt"
+Durum Kodu: 0
+
+[39] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\backend\src\models\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\backend\src\models\README.txt"
+Durum Kodu: 0
+
+[40] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\backend\src\middleware\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\backend\src\middleware\README.txt"
+Durum Kodu: 0
+
+[41] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\database\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\database\README.txt"
+Durum Kodu: 0
+
+[42] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\database\migrations\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\database\migrations\README.txt"
+Durum Kodu: 0
+
+[43] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\database\seeds\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\database\seeds\README.txt"
+Durum Kodu: 0
+
+[44] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\storage\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\storage\README.txt"
+Durum Kodu: 0
+
+[45] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\storage\products\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\storage\products\README.txt"
+Durum Kodu: 0
+
+[46] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\tests\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\tests\README.txt"
+Durum Kodu: 0
+
+[47] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\tests\unit\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\tests\unit\README.txt"
+Durum Kodu: 0
+
+[48] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\tests\integration\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\tests\integration\README.txt"
+Durum Kodu: 0
+
+[49] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\scripts\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\scripts\README.txt"
+Durum Kodu: 0
+
+[50] /cmd if not exist "%USERPROFILE%\Downloads\testgpt\deployment\README.txt" type nul > "%USERPROFILE%\Downloads\testgpt\deployment\README.txt"
+Durum Kodu: 0
+
+[51] /cmd tree "%USERPROFILE%\Downloads\testgpt" /f
 Durum Kodu: 0
 --- STDOUT ---
 Folder PATH listing for volume Windows
 Volume serial number is 16F4-2368
 C:\USERS\BALKA\DOWNLOADS\TESTGPT
-    cikti.txt
-    README.md
-    
-No subfolders exist
+�   cikti.txt
+�   README.md
+�   
++---backend
+�   �   README.txt
+�   �   
+�   +---src
+�       �   README.txt
+�       �   
+�       +---config
+�       �       README.txt
+�       �       
+�       +---controllers
+�       �       README.txt
+�       �       
+�       +---middleware
+�       �       README.txt
+�       �       
+�       +---models
+�       �       README.txt
+�       �       
+�       +---routes
+�               README.txt
+�               
++---database
+�   �   README.txt
+�   �   
+�   +---migrations
+�   �       README.txt
+�   �       
+�   +---seeds
+�           README.txt
+�           
++---deployment
+�       README.txt
+�       
++---docs
+�       README.txt
+�       
++---frontend
+�   �   README.txt
+�   �   
+�   +---public
+�   �   �   README.txt
+�   �   �   
+�   �   +---images
+�   �           README.txt
+�   �           
+�   +---src
+�       �   README.txt
+�       �   
+�       +---components
+�       �       README.txt
+�       �       
+�       +---pages
+�       �       README.txt
+�       �       
+�       +---styles
+�               README.txt
+�               
++---scripts
+�       README.txt
+�       
++---storage
+�   �   README.txt
+�   �   
+�   +---products
+�           README.txt
+�           
++---tests
+    �   README.txt
+    �   
+    +---integration
+    �       README.txt
+    �       
+    +---unit
+            README.txt
