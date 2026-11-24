@@ -1,43 +1,35 @@
-=== ÇALIŞTIRMA RAPORU (2026-11-24 03:12:58) ===
+=== ÇALIŞTIRMA RAPORU (2026-11-24 03:13:20) ===
 Dizin: C:/Users/Balka/Downloads/testgpt
 
-[1] /cmd if exist "%USERPROFILE%\Downloads\testgpt\docs" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\docs"
-Durum Kodu: 0
+[1] /cmd python -c "from pathlib import Path; r=Path(r'%USERPROFILE%\Downloads\testgpt'); ds=['docs','docs\requirements','docs\architecture','frontend','frontend\public','frontend\public\images','frontend\src','frontend\src\components','frontend\src\layouts','frontend\src\pages','frontend\src\features','frontend\src\features\catalog','frontend\src\features\cart','frontend\src\features\checkout','frontend\src\features\account','frontend\src\services','frontend\src\styles','backend','backend\src','backend\src\config','backend\src\middleware','backend\src\modules','backend\src\modules\auth','backend\src\modules\products','backend\src\modules\categories','backend\src\modules\users','backend\src\modules\cart','backend\src\modules\orders','backend\src\modules\payments','backend\src\modules\admin','backend\src\utils','database','database\migrations','database\seeds','storage','storage\uploads','storage\uploads\products','storage\uploads\categories','tests','tests\unit','tests\integration','tests\e2e','scripts','deployment','deployment\docker','logs']; [(r/d).mkdir(parents=True,exist_ok=True) for d in ds]; [(r/d/'README.txt').touch(exist_ok=True) for d in ds]; print('Created folders:',len(ds),'README files:',len(ds))"
+Durum Kodu: 1
+--- STDERR ---
+<string>:1: SyntaxWarning: invalid escape sequence '\p'
+<string>:1: SyntaxWarning: invalid escape sequence '\p'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+<string>:1: SyntaxWarning: invalid escape sequence '\s'
+  File "<string>", line 1
+    from pathlib import Path; r=Path(r'C:\Users\Balka\Downloads\testgpt'); ds=['docs','docs\requirements','docs\architecture','frontend','frontend\public','frontend\public\images','frontend\src','frontend\src\components','frontend\src\layouts','frontend\src\pages','frontend\src\features','frontend\src\features\catalog','frontend\src\features\cart','frontend\src\features\checkout','frontend\src\features\account','frontend\src\services','frontend\src\styles','backend','backend\src','backend\src\config','backend\src\middleware','backend\src\modules','backend\src\modules\auth','backend\src\modules\products','backend\src\modules\categories','backend\src\modules\users','backend\src\modules\cart','backend\src\modules\orders','backend\src\modules\payments','backend\src\modules\admin','backend\src\utils','database','database\migrations','database\seeds','storage','storage\uploads','storage\uploads\products','storage\uploads\categories','tests','tests\unit','tests\integration','tests\e2e','scripts','deployment','deployment\docker','logs']; [(r/d).mkdir(parents=True,exist_ok=True) for d in ds]; [(r/d/'README.txt').touch(exist_ok=True) for d in ds]; print('Created folders:',len(ds),'README files:',len(ds))
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 19-20: truncated \uXXXX escape
 
-[2] /cmd if exist "%USERPROFILE%\Downloads\testgpt\frontend" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\frontend"
-Durum Kodu: 0
-
-[3] /cmd if exist "%USERPROFILE%\Downloads\testgpt\backend" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\backend"
-Durum Kodu: 0
-
-[4] /cmd if exist "%USERPROFILE%\Downloads\testgpt\database" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\database"
-Durum Kodu: 0
-
-[5] /cmd if exist "%USERPROFILE%\Downloads\testgpt\integrations" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\integrations"
-Durum Kodu: 0
-
-[6] /cmd if exist "%USERPROFILE%\Downloads\testgpt\workers" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\workers"
-Durum Kodu: 0
-
-[7] /cmd if exist "%USERPROFILE%\Downloads\testgpt\storage" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\storage"
-Durum Kodu: 0
-
-[8] /cmd if exist "%USERPROFILE%\Downloads\testgpt\tests" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\tests"
-Durum Kodu: 0
-
-[9] /cmd if exist "%USERPROFILE%\Downloads\testgpt\config" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\config"
-Durum Kodu: 0
-
-[10] /cmd if exist "%USERPROFILE%\Downloads\testgpt\scripts" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\scripts"
-Durum Kodu: 0
-
-[11] /cmd if exist "%USERPROFILE%\Downloads\testgpt\deployment" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\deployment"
-Durum Kodu: 0
-
-[12] /cmd if exist "%USERPROFILE%\Downloads\testgpt\logs" rmdir /s /q "%USERPROFILE%\Downloads\testgpt\logs"
-Durum Kodu: 0
-
-[13] /cmd tree "%USERPROFILE%\Downloads\testgpt" /f
+[2] /cmd tree "%USERPROFILE%\Downloads\testgpt" /f
 Durum Kodu: 0
 --- STDOUT ---
 Folder PATH listing for volume Windows
